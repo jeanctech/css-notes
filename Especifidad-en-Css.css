@@ -1,0 +1,25 @@
+/*Especificidad en Css*/
+
+/*Selector H1*/
+
+h1{
+	color: red;
+}
+
+#color{
+	color: red;
+}
+
+.color{
+	color: blue;
+}
+
+[atributo-color]{
+	color: white;
+}
+
+h1{color: blue;}
+
+h1{
+	color: greey !important;
+}

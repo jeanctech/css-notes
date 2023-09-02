@@ -1,0 +1,42 @@
+/*Css*/
+
+/*Sintaxis Basica*/
+
+selector{
+    margin: 0px;
+    padding: 10px;
+}
+
+/*Selectores en Css*/
+
+/* De Clases*/
+
+.selector{
+    max-width: 10px;
+    margin-right: 10px;
+}
+
+/*Tener que estilizar un elemento dentro de un elemento*/
+
+.select{
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Variables en Css*/
+
+.selector{
+    --nombre-de-lavariable: valor;
+    --nombre-de-la-variable: valor;
+    background-color: var(--nombre-de-la-variable, valor-de-respaldo );
+}
+
+/*Variables Global*/
+
+:root{
+    --nombre-de-lavariable: valor;
+}
+
+*{
+    --valor: var(--valor);
+}
