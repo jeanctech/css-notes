@@ -1,38 +1,36 @@
 /*Selectores en Css*/
 
 /*Selector Global*/
-
 * {
-	margin: 0px	
+	margin: 0px;
 }
 
-/*Selector Elemento*/
+/*Selector de Elemento*/
 main {
 	color: red;
 }
 
-/*Selector Clases*/
+/*Selector de Clases*/
 .main {
 	font: arial;
 }
 
-/*Selector Id*/
+/*Selector de Id*/
 #main-id {
 	text-align: center;
 }
 
-/*Selector Atributos*/
+/*Selector de Atributos*/
 [atributo]{
 	padding: 10px;
 }
 
-/*Selector Descendiente*/
+/*Selector de Descendiente*/
 h1 p {
 	background-color: whitesmoke;
 }
 
 /*Selector de Pseudoclases*/
-
 link:hover{
 	color: whitesmoke;
 }

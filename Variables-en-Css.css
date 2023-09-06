@@ -1,0 +1,19 @@
+/* Variables en Css*/
+
+/*Variable Local*/
+
+.selector{
+    --nombre-de-lavariable: valor;
+    --nombre-de-la-variable: valor;
+    background-color: var(--nombre-de-la-variable, valor-de-respaldo );
+}
+
+/*Variables Global*/
+
+:root{
+    --nombre-de-lavariable: valor;
+}
+
+*{
+    --valor: var(--valor);
+}

@@ -7,14 +7,6 @@ selector{
     padding: 10px;
 }
 
-/*Selectores en Css*/
-
-/* De Clases*/
-
-.selector{
-    max-width: 10px;
-    margin-right: 10px;
-}
 
 /*Tener que estilizar un elemento dentro de un elemento*/
 
@@ -23,20 +15,12 @@ selector{
     padding: 10px;
 }
 
-/* Variables en Css*/
+/*Comentarios en Css*/
 
-.selector{
-    --nombre-de-lavariable: valor;
-    --nombre-de-la-variable: valor;
-    background-color: var(--nombre-de-la-variable, valor-de-respaldo );
-}
+/*Esto es un Comentario de una Sola Linea*/
 
-/*Variables Global*/
-
-:root{
-    --nombre-de-lavariable: valor;
-}
-
-*{
-    --valor: var(--valor);
-}
+/*
+Esto
+es un
+Comentario de Varia Linea
+*/
