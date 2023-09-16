@@ -1,26 +1,26 @@
 /*Css*/
 
-/*Sintaxis Basica*/
+/*Basic Syntax*/
 
-selector{
+selector {
     margin: 0px;
     padding: 10px;
 }
 
 
-/*Tener que estilizar un elemento dentro de un elemento*/
+/*Having to style an element within an element*/
 
-.select{
+.select {
     margin: 10px;
     padding: 10px;
 }
 
-/*Comentarios en Css*/
+/*Comments in CSS*/
 
-/*Esto es un Comentario de una Sola Linea*/
+/*This is a Single Line Comment*/
 
 /*
-Esto
-es un
-Comentario de Varia Linea
+This
+it's a
+Comment from Varia Linea
 */

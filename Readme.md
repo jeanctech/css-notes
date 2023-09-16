@@ -1,5 +1,5 @@
 # **Css**
 
-## **¿Qué es Css?**
+## **What is CSS?**
 
-### Css - Cascading Style Sheets Es un lenguaje de diseño utilizado para definir la presentación de un documento HTML. Permite separar el contenido del diseño y la presentación visual, lo que facilita la creación de sitios web más eficientes y flexibles
+### CSS - Cascading Style Sheets It is a design language used to define the presentation of an HTML document It allows you to separate content from design and visual presentation, making it easier to create more efficient and flexible websites
