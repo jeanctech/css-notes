@@ -1,0 +1,38 @@
+/*! Z-Index in Css */
+
+/* The `z-index` property in Css is used to control the z-axis position (the depth) of
+Overlay elements on a web page. It's especially useful when you have overlapping elements,
+such as boxes, images or text, and you want to define which of them will be displayed on top of the others. The value
+`z-index` determines the stacking order of the elements. */
+
+/* The `z-index` property applies to elements with a position property other than `static`, that is
+that is, elements with `position` set to `relative`, `absolute`, `fixed`, or `sticky`. Here
+Do you have how to use `z-index` */
+
+selector {
+    z-index: value;
+ }
+
+ /* - `value`: An integer that determines the position on the z axis. The higher the number,
+ The higher up the element will be in the stack of overlapping elements. */
+
+ div {
+    position:relative;
+    z-index: 2; /* This element will be above elements with z-index 1 or less */
+ }
+
+ p {
+    position:relative;
+    z-index: 1; /* This element will be after the element with z-index 2 */
+ }
+
+/* It is important to note that `z-index` only has an effect on overlapping elements. If there is not
+overlapping elements or if all elements have the same `z-index` value, then the
+property has no visible effect. Additionally, `z-index` only affects elements contained in
+the same stacking context, which is affected by other factors, such as
+transformation and opacity properties. */
+
+/* In situations of overlapping elements, `z-index` is a powerful tool to control the
+visibility and interaction of elements on a web page. Note that a high `z-index` value
+It does not necessarily mean that an element is "higher" in the visual layout; just control
+which elements are displayed on top of others when they overlap. */

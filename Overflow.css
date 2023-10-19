@@ -1,0 +1,40 @@
+/*! OverFlow in CSS */
+
+/* The `overflow` property in Css is used to control the behavior of an HTML element when
+its content is larger than the size assigned to the element. This property determines whether
+scrollbars or whether to hide or clip content that overflows from the
+element. `overflow` can take one of the following values: */
+
+/* 1. **`visible` (default):** The overflowing content of the element is displayed outside
+of its limits. This can cause content to overlap other elements on the page. */
+
+div {
+    overflow: visible;
+  }
+
+/* 2. **`hidden`:** The content that overflows from the element is hidden and not visible. This will trim
+or will hide any content that doesn't fit inside the element. */
+
+  div {
+    overflow: hidden;
+  }
+
+/* 3. **`scroll`:** Both horizontal and vertical scrollbars will be displayed
+if the content overflows the element. This allows the user to scroll to see hidden content. */
+
+  div {
+    overflow: scroll;
+  }
+
+/* 4. **`auto`:** Scroll bars will be displayed only if the content actually overflows from the
+element. If the content fits inside the element, no scroll bars will be displayed. */
+
+  div {
+    overflow: self;
+  }
+
+/* The `overflow` property is especially useful when you work with fixed-size containers that can
+contain variable content. It can help you control the display of overflowing content
+effectively and maintain the layout of the page. It is also important to ensure usability
+and accessibility of your website, as it allows you to provide a way to access content that is not
+fits completely into one element. */

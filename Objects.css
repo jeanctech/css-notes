@@ -1,0 +1,59 @@
+/*! Objects in CSS */
+
+/* In CSS, objects are not a native or language-specific concept, unlike Html and JavaScript
+where objects are a fundamental part of language. CSS (Cascading Style Sheets) is used
+mainly to define the presentation and style of Html elements on a web page.
+Although you do not work directly with objects in Css, you can often see concepts that are assimilated
+to objects in the context of Css. */
+
+/* 1. **Css Rules**: Css rules are sets of properties and values that are applied to elements
+Html. You can think of a Css rule as a set of style attributes that apply to a
+specific Html element or to a set of elements that match a selector. */
+
+h1 {
+    color: blue;
+    font-size: 24px;
+ }
+
+/* 2. **Selectors**: Selectors in Css are used to select one or more elements
+HTML to which style rules will be applied. You can see them as criteria to "select" elements,
+similar to how objects are selected in other languages. */
+
+ p {
+    font-weight: bold;
+ }
+
+/* 3. **Classes and IDs**: In CSS, you can assign classes and IDs to HTML elements to apply styles
+specific to those elements. This is similar to working with objects with unique identifiers. */
+
+ /*
+ <div class="my-class">
+    <!-- Contents -->
+ </div>
+ */
+
+.my class {
+    background-color: yellow;
+}
+
+#my-id {
+    border: 1px solid red;
+}
+
+/* 4. **Properties and values**: Properties and values in Css are similar to attributes and
+methods in object-oriented programming. Properties define how a device should look or behave.
+element, and the values are the specific settings. */
+
+button{
+    background-color: green;
+    border: 2px solid black;
+}
+
+/* 5. **Inheritance**: Css also includes the concept of inheritance, where styles can be inherited from
+parent elements to child elements. This may be similar to the concept of property inheritance in
+Object-oriented programming. */
+
+/* These concepts in Css can be related in some way to objects and object-oriented programming
+objects in other languages, but Css itself is not based on an object model. Css is used
+ mainly to apply styles to Html documents, and focuses on describing how they should
+elements appear on a web page. */

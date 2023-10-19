@@ -1,0 +1,21 @@
+/*! Css introduction */
+
+/* Css stands for cascading style sheets and is used to design and layout web pages. Describe how
+Html elements will be displayed on screen, paper or other media. Css allows developers
+and designers define how elements are placed in the browser and how the web page should look,
+including colors, fonts, spacing and much more. Css comprises style rules that are interpreted by
+the browser and then applied to the corresponding elements in your document. A set of rules
+style consists of a selector and a declaration block. The selector points to the Html Element you want
+apply style, while the declaration block contains one or more declarations separated by dot
+and eat. Each declaration includes Css properties and their corresponding values. */
+
+/*! Comments in Css */
+
+/* This is a single line Css comment */
+
+/*
+This
+it's a
+Comment from Varia Linea
+in Css
+*/

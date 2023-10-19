@@ -1,4 +1,4 @@
-/*Specificity en Css*/
+/*! Specificity in Css */
 
 /*Selector H1*/
 
@@ -6,19 +6,31 @@ h1{
 	color: red;
 }
 
+/* Id selector */
+
 #color{
 	color: red;
 }
+
+/* Class Selector */
 
 .color{
 	color: blue;
 }
 
-[atributo-color]{
+/* Attribute Selector */
+
+[color-attribute]{
 	color: white;
 }
 
-h1{color: blue;}
+/* Global Selector */
+
+h1{
+	color: blue;
+}
+
+/* Important Selector */
 
 h1{
 	color: greey !important;

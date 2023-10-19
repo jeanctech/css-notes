@@ -1,0 +1,65 @@
+/*! Borders in Css */
+
+/* In Css, borders are used to define the appearance of the boundaries of an Html element, such as a
+div, a paragraph, an image or any other element on a web page. The edges are a part
+fundamental of web design and can be customized using various properties. Here you have one
+description of properties related to borders in Css. */
+
+/* 1. **`border-width`:** This property is used to define the width of the border of an element.
+You can set a single value for all sides or individual values for each side (top,
+right, down and left). */
+
+div {
+    border-width: 2px; /* 2 pixel border on all sides */
+  }
+
+  p {
+    border-width: 1px 3px 2px 4px; /* Border 1px top, 3px right, 2px bottom, 4px left */
+  }
+
+/* 2. **`border-style`:** This property is used to define the style of the border, such as solid,
+dotted, double, etc. */
+
+  div {
+    border-style: solid; /* Solid border */
+  }
+
+  p {
+    border-style: dashed; /* Dotted border */
+  }
+
+/* 3. **`border-color`:** This property is used to define the border color. */
+
+  div {
+    border-color: #FF0000; /* Red color */
+  }
+
+  p {
+    border-color: #00FF00; /* Green color */
+  }
+
+/* 4. **`border`:** This property is a shorthand property that combines `border-width`, `border-style`
+and `border-color` in a single declaration. */
+
+  div {
+    border: 2px solid #000; /* 2 pixel border, solid style, black color */
+  }
+
+  p {
+    border: 1px dashed #333; /* 1 pixel border, dotted style, dark gray */
+  }
+
+/* 5. **`border-radius`:** This property is used to create rounded corners on elements
+square or rectangular. */
+
+  div {
+    border-radius: 10px; /* 10 pixel rounded corners */
+  }
+
+  p {
+    border-radius: 5px 20px; /* Rounded corners 5px top, 20px bottom */
+  }
+
+/* Borders are used to define the visual appearance of elements on a web page and are
+fundamental to the design. You can customize the borders according to your needs to achieve
+the desired style on your website. */
