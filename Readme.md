@@ -57,11 +57,11 @@ Thank you very much for all the support shown!
 
 * [Css official website](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-* [Official Css tutorial in Spanish](https://developer.mozilla.org/es/docs/Web/CSS)
+* [Official Css in Spanish](https://developer.mozilla.org/es/docs/Web/CSS)
 
 * [30 Days of Css Repo](https://github.com/TheOdinProject/css-exercises)
 
-* [Flexbox game to learn Css](https://flexboxfroggy.com/#es)
+* [Game to Learn Css](https://flexboxfroggy.com/#es)
 
 * [Visual Studio Code](https://code.visualstudio.com/) - The editor I am using
 
