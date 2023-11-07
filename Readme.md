@@ -5,7 +5,7 @@
 
 ## What is Css?
 
-Css - Cascading Style Sheets It is a design language used to define the presentation of an HTML document It allows you to separate content from design and visual presentation, making it easier to create more efficient and flexible websites
+Css - Cascading Style Sheets It is a design language used to define the presentation of an Html document It allows you to separate content from design and visual presentation, making it easier to create more efficient and flexible websites
 
 ## Index
 
@@ -55,11 +55,11 @@ Thank you very much for all the support shown!
 
 ## Links of Interest
 
-* [Css official website](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Css Official Website](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 * [Official Css in Spanish](https://developer.mozilla.org/es/docs/Web/CSS)
 
-* [30 Days of Css Repo](https://github.com/TheOdinProject/css-exercises)
+* [30 Days of Css Repository](https://github.com/TheOdinProject/css-exercises)
 
 * [Game to Learn Css](https://flexboxfroggy.com/#es)
 
