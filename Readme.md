@@ -1,7 +1,7 @@
 # Css - Documentation
 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-[![ChatGPT](https://img.shields.io/badge/ChatGPT-GPT--4-7CF178?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010)](https://platform.openai.com)
+![Css3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+[![ChatGpt](https://img.shields.io/badge/ChatGPT-GPT--4-7CF178?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010)](https://platform.openai.com)
 
 ## What is Css?
 
@@ -48,9 +48,9 @@ Css stands for Cascading Style Sheets and is used to style and layout web pages 
 
 ## Important information and frequently asked questions
 
-Currently the course is in process. The basic, intermediate and backend blocks have been started, and that was the initial objective of the project. And after that I don't rule out adding new lessons in the future, but I think that for the moment it can serve as a basis for anyone who wants to start learning this language.
+Currently the course is in process. The basic, intermediate and backend blocks have been started, and that was the initial goal of the project. And then I don't rule out adding new lessons in the future, but I think that for now it can serve as a basis for anyone who wants to start learning this language.
 
-* As soon as the course continues, I will update the repository and notify the networks.
+* As soon as the course continues I will update the repository and notify the networks.
 Thank you very much for all the support shown!
 
 ## Links of Interest
