@@ -1,0 +1,45 @@
+/** Width in CSS */
+
+/* The `width` property in CSS is used to define the width of an HTML element, that is, how much space
+horizontal will occupy an element on the web page. You can apply the `width` property to a variety of
+HTML elements, such as divs, images, paragraphs, headers, and more. Here are some examples of how
+It can be used: */
+
+/* 1. **Fixed value in pixels:** */
+
+div {
+  width: 300px; /* The div will have a width of 300 pixels */
+}
+
+img {
+  width: 100px; /* The image will have a width of 100 pixels */
+}
+
+/* 2. **Percentage of container width:** */
+
+div {
+  width: 50%; /* The div will occupy 50% of the width of its container */
+}
+
+/* 3. **Auto value:** */
+
+/* You can use `width: auto;` to allow the element to automatically fit its contents.
+For example, a paragraph will fit the width of its text content. */
+
+p {
+  width: self; /* The paragraph will fit the width of its content */
+}
+
+/* 4. **Maximum and minimum value:** */
+
+/* You can define maximum and minimum values for the width of an element using `max-width` and `min-width`
+This can be useful to control the size of an element within certain limits. */
+
+div {
+  max-width: 500px; /* The maximum width of the div is 500 pixels */
+  min-width: 200px; /* The minimum width of the div is 200 pixels */
+}
+
+/* The `width` property is essential for web design and allows you to control the size of elements
+on your page. You can adjust the width of the elements according to your design needs, either using
+fixed values, percentages or configuring minimum and maximum limits. */

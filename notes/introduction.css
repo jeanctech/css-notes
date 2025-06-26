@@ -1,0 +1,21 @@
+/** CSS introduction */
+
+/* CSS stands for cascading style sheets and is used to design and layout web pages. Describe how
+Html elements will be displayed on screen, paper or other media. CSS allows developers
+and designers define how elements are placed in the browser and how the web page should look,
+including colors, fonts, spacing and much more. CSS comprises style rules that are interpreted by
+the browser and then applied to the corresponding elements in your document. A set of rules
+style consists of a selector and a declaration block. The selector points to the HTML Element you want
+apply style, while the declaration block contains one or more declarations separated by dot
+and eat. Each declaration includes CSS properties and their corresponding values. */
+
+/** Comments in CSS */
+
+/* This is a single line CSS comment */
+
+/*
+This
+it's a
+Comment from Varia Linea
+in CSS
+*/

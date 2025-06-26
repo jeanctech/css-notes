@@ -1,0 +1,68 @@
+/** Colors in CSS */
+
+/* The "colors" in CSS refers to the process of changing the colors of elements on a web page
+using CSS styles. You can control background colors, text, borders and other aspects
+visuals of HTML elements using style properties in CSS. Some of the properties
+Common ones for colorization in CSS include: */
+
+/* 1. **Background color (`background-color`)**: This property sets the background color of an element.
+You can use color names, hexadecimal color codes, or RGB names to define the color of
+background. */
+
+element {
+  background-color: #ff0000; /* Red color in hexadecimal */
+}
+
+/* 2. **Text color (`color`)**: The `color` property is used to set the color of the text
+ within an element. */
+
+p {
+  color: blue; /* Blue text */
+}
+
+/* 3. **Border color (`border-color`)**: This property controls the color of the border of an element, since
+ be a solid border, dotted, double, etc. */
+
+div {
+  border: 2px solid green; /* Green solid border */
+}
+
+/* 4. **Link color (`a:link`, `a:visited`, `a:hover`, `a:active`)**: You can change the color of the
+ links in different states, such as not visited (`a:link`), visited (`a:visited`), when the cursor
+ hovers over them (`a:hover`), and when clicked (`a:active`). */
+
+a:link {
+  color: blue; /* Unvisited links in blue */
+}
+a:hover {
+  color: red; /* Links on hover turn red */
+}
+
+/* 5. **Text-shadow (`text-shadow`)**: The `text-shadow` property allows you to add a shadow to the
+ text, which can help highlight it and give it a three-dimensional look. */
+
+h1 {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Text shadow */
+}
+
+/* 6. **Gradients (`background-image`)**: You can use linear or radial gradients to create effects
+ Soft colored elements in the background. */
+
+element {
+  background-image: linear-gradient(
+    to right,
+    red,
+    yellow
+  ); /* Linear gradient */
+}
+
+/* 7. **Opacity (`opacity`)**: The `opacity` property controls the transparency of an element and, therefore,
+ Therefore, it affects its apparent color. */
+
+element {
+  opacity: 0.5; /* Element with 50% opacity */
+}
+
+/* These are some of the most common CSS properties used to change and customize the
+ colors on a web page. You can combine these properties and techniques to achieve a variety of
+ visual effects and colorizations on your website. */

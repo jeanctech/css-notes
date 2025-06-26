@@ -1,0 +1,77 @@
+/** Bem Methodology in CSS */
+
+/* Bem stands for "Block Element Modifier" and is a naming convention
+and popular methodology for writing maintainable and scalable CSS code. It was created by developers of
+Yandex with the intention of improving the structure and organization of the CSS code, making it more
+understandable and easy to maintain, especially on larger projects. */
+
+/* Here is a brief explanation of each part of Bem */
+
+/* Block: It is an independent and reusable component that represents a different part of the interface
+of user. Blocks are usually represented by a class name, and must be named accordingly.
+semantic way to describe its purpose. For example, a navigation menu, button, or
+header could be considered blocks. */
+
+.block {
+  /* styles for the block */
+  margin: 1rem;
+}
+
+/* Element : Elements are parts of the block that cannot be used separately from the block itself.
+They are denoted by two underscores (__) followed by the element name. The elements are always part
+of a block, and their class names are constructed using the block name as a prefix. */
+
+.block__item {
+  /* styles for the element */
+  margin: 1rem;
+}
+
+/* Modifier: Modifiers are used to change the appearance or behavior of blocks
+or elements. They are denoted by two dashes (--) followed by the name of the modifier. The modifiers
+allow you to create variations of a block or element without duplicating CSS rules */
+
+.block--modifier {
+  /* styles for the block with the modifier applied */
+  margin: 1rem;
+}
+
+.block__item--modifier {
+  /* styles for the element with the modifier applied */
+  margin: 1rem;
+}
+
+/* Here's an example of Bem in action:
+
+ <div class="menu">
+    <ul class="menu__list">
+      <li class="menu__item">Home</li>
+      <li class="menu__item menu__item--active">About</li>
+      <li class="menu__item">Contact</li>
+    </ul>
+ </div>
+
+*/
+
+.menu {
+  /* styles for the menu block */
+  margin: 1rem;
+}
+
+.menu__list {
+  /* styles for the menu list item */
+  margin: 1rem;
+}
+
+.menu__item {
+  /* styles for the menu item element */
+  margin: 1rem;
+}
+
+.menu__item--active {
+  /* styles for the active menu item element */
+  margin: 1rem;
+}
+
+/* Using Bem helps create a clear and meaningful naming structure for CSS classes
+, reduce the chances of style conflicts and improve maintainability and readability
+of your code, especially as it grows in size and complexity.*/

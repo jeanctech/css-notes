@@ -1,0 +1,37 @@
+/** Specificity in CSS */
+
+/*Selector H1*/
+
+h1 {
+  color: red;
+}
+
+/* Id selector */
+
+#color {
+  color: red;
+}
+
+/* Class Selector */
+
+.color {
+  color: blue;
+}
+
+/* Attribute Selector */
+
+[color-attribute] {
+  color: white;
+}
+
+/* Global Selector */
+
+h1 {
+  color: blue;
+}
+
+/* Important Selector */
+
+h1 {
+  color: greey !important;
+}

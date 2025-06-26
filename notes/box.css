@@ -1,0 +1,72 @@
+/** Box in CSS */
+
+/* In CSS, "boxes" refer to HTML elements such as divs, paragraphs, headers, images, etc., which
+They are rectangular and can be stylized and controlled with box properties. box properties
+in CSS are essential for the design of the structure and layout of a web page. Some
+Most common box properties are: */
+
+/* 1. `width` and `height`: These properties control the width and height of a box, respectively. */
+
+div {
+  width: 200px;
+  height: 100px;
+}
+
+/* 2. `margin`: Controls the margins around the box. You can set upper margins,
+right, bottom and left individually or in abbreviated form. */
+
+div {
+  margin: 10px; /* Equal margins on all sides */
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+
+/* 3. `padding`: Controls the internal space of a box between the content and the border. */
+
+div {
+  padding: 15px; /* Uniform spacing on all sides */
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 25px;
+}
+
+/* 4. `border`: Defines the border of a box and can be customized with width, style and color. */
+
+div {
+  border: 1px solid #000; /* 1 pixel solid black border */
+}
+
+/* 5. `box-sizing`: Controls how the width and height of a box is calculated, it can be `content-box`
+(the default) or `border-box`. */
+
+div {
+  box-sizing: border-box; /* Width and height include padding and border */
+}
+
+/* 6. `display`: Controls the display type of the box. Common values are `block`, `inline`,
+`inline-block`, `flex`, etc. */
+
+div {
+  display: block; /* Block box */
+}
+
+span {
+  display: inline; /* Online checkout */
+}
+
+/* 7. `position`: Controls the positioning model, with values such as `relative`, `absolute`, `
+fixed`, etc. */
+
+div {
+  position: relative; /* Relative positioning */
+}
+
+p {
+  position: absolute; /* Absolute positioning */
+}
+
+/* These are just some of the box properties in CSS. By combining these properties, you can control
+the design and appearance of boxes on your website to create complex and varied designs. */

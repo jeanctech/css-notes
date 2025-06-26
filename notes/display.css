@@ -1,0 +1,38 @@
+/** Display in CSS */
+
+/* The `display` property in CSS is used to control how an HTML element is displayed on a page
+Web. This property determines the type of box that is generated for an element and, consequently, its
+behavior and design on the page. `display` can take several values, each with its own
+representation and design rules. Some of the most common values of `display` are: */
+
+/* 1. **`block`:** Elements with `display: block` are represented as rectangular blocks that
+They take up the entire available width of your container. This means that they start on a new line and
+They are stacked vertically, creating a separation between adjacent elements. */
+
+/* 2. **`inline`:** Elements with `display: inline` are rendered on the same line as the content
+surrounding, without creating a new line. They occupy only the space necessary for their content and do not allow
+configure width or height properties. */
+
+/* 3. **`inline-block`:** This option combines features of the `block` and `inline` elements. The
+elements with `display: inline-block` are rendered on the same line, but allow setting
+width and height properties, allowing them to behave like inline blocks. */
+
+/* 4. **`none`:** Elements with `display: none` are not displayed on the page. It is as if the element
+did not exist in the HTML code. It can be useful to hide elements dynamically using
+JavaScript or CSS. */
+
+/* 5. **`table`, `table-row`, `table-cell`, etc.:** These values are used to create elements with a
+table-like box model. They are used to create table-type layouts when you are not
+using a table structure in HTML. */
+
+/* 6. **`flex`:** The `display: flex` property is used to create a flexible layout model in a
+container and allows automatic positioning and spacing of elements within it. This is
+useful for designing more complex and flexible layouts. */
+
+/* 7. **`grid`:** The `display: grid` property is used to create a grid layout model
+in a container and allows you to control the arrangement and alignment of elements in a grid
+two-dimensional. It is useful for more advanced grid layouts. */
+
+/* These are just some examples of `display` values in CSS. Each value has a behavior
+specific that affects the way elements on a web page are rendered and behave.
+Choosing the value of `display` depends on your design needs and the structure of your page. */

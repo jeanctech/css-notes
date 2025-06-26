@@ -1,0 +1,17 @@
+/** Normalize.CSS */
+
+/* Normalize.CSS is a CSS style sheet used to establish a consistent base and
+uniformfor the layout and appearance of HTML elements in different browsers. Unlike the
+Conventional CSS styles, which often vary slightly between browsers, Normalize.CSS has as
+The goal is to normalize or match the default styles of HTML elements in all
+modern browsers. */
+
+/* Link - https://necolas.github.io/normalize.CSS/ */
+
+/* Mini Version of Normalize.CSS */
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}

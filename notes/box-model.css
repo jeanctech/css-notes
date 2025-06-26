@@ -1,0 +1,44 @@
+/** Box Model in CSS */
+
+/* The "box model" in CSS refers to the way an HTML element is visually represented,
+including its content, padding, border and margin. The box model is used to calculate the size
+total of an element and how it fits within its container. It is made up of four parts: */
+
+/* 1. **Content (`content`):** This is the internal part of the element where the content is displayed, such as
+text, images or any other element it contains. The size of the content is defined using the
+`width` and `height` properties. */
+
+/* 2. **Padding (`padding`):** Padding is the space between the content and the border of the element. Can
+use the `padding` property to control the amount of space around the content. The filling is
+lies within the total width and height of the element and is used to adjust the space between the
+content and border. */
+
+/* 3. **Border (`border`):** The border is the line or area that surrounds the content and the padding. Can
+customize the border using the `border-width`, `border-style` and `border-color` properties.
+The border is outside the total width and height of the element. */
+
+/* 4. **Margin (`margin`):** The margin is the space between the border of the element and other elements in the
+page. You can use the `margin` property to control the spacing between elements in the layout
+of the page. The margin is outside the border. */
+
+/* Here is an example of what the box model looks like in CSS:
+
+```
++---------------------+
+| Margin |
+| +-----------------+ |
+| | Border | |
+| | +-------------+ | |
+| | | Padding | | |
+| | | +---------+ | | |
+| | | | Content | | | |
+| | | +---------+ | | |
+| | +-------------+ | |
+| +-----------------+ |
+| Margin |
++---------------------+
+```
+
+To control the box model in CSS, you use properties like `width`, `height`, `padding`,
+`border`, and `margin`. These properties allow you to define the size, spacing between elements, and
+the edges of the elements, which is essential for the design of a web page. */

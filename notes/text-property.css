@@ -1,0 +1,78 @@
+/** Text Properties in CSS */
+
+/* In CSS (Cascading Style Sheets), you can use text properties to control the appearance and
+text formatting on your web page. These properties allow you to specify things like the color of the text,
+font size, line spacing, alignment and many other visual features
+of the text. Here are some common text properties */
+
+/* 1. `color`: This property is used to set the color of the text. You can specify the color in
+name form (e.g. "red" for red), hexadecimal value (#FF0000 for red), or RGB value
+(rgb(255, 0, 0) for red). */
+
+p {
+  color: blue;
+}
+
+/* 2. `font-size`: Controls the font size of the text. You can specify the size in pixels,
+ems, percentages or other units of measurement. */
+
+p {
+  font-size: 16px;
+}
+
+/* 3. `font-family`: This property defines the font family that will be used for the text. Can
+provide a list of preferred sources, separated by commas. */
+
+p {
+  font-family: "Arial", sans-serif;
+}
+
+/* 4. `font-weight`: Controls the weight of the font, such as "bold" or "normal." */
+
+p {
+  font-weight: bold;
+}
+
+/* 5. `text-align`: Defines the alignment of the text in the element, such as "left", "center"
+(center), "right" or "justify." */
+
+p {
+  text-align: center;
+}
+
+/* 6. `line-height`: This property sets the line height, which is the distance between the lines of
+text. You can use a numerical value or percentages. */
+
+p {
+  line-height: 1.5;
+}
+
+/* 7. `text-decoration`: Controls text decoration, such as "none", "underline"
+or "overline" (overwritten). */
+
+to {
+  text-decoration: underline;
+}
+
+/* 8. `text-transform`: Defines how the text is transformed, such as "uppercase", "lowercase"
+(lowercase) or "capitalize" (uppercase initials). */
+
+h1 {
+  text-transform: uppercase;
+}
+
+/* 9. `letter-spacing`: Controls the spacing between characters. */
+
+p {
+  letter-spacing: 2px;
+}
+
+/* 10. `word-spacing`: Sets the spacing between words. */
+
+p {
+  word-spacing: 4px;
+}
+
+/* These are just some of the text properties you can use in CSS to customize the
+appearance of the text on your website. You can combine these properties and adjust them according to your needs
+specific to achieve the desired design. */

@@ -1,0 +1,36 @@
+/** CSS Selectors*/
+
+/*Global Selector*/
+* {
+  margin: 0px;
+}
+
+/*Element Selector*/
+main {
+  color: red;
+}
+
+/*Class Selector*/
+.main {
+  font: arial;
+}
+
+/*Id selector*/
+#main-id {
+  text-align: center;
+}
+
+/*Attribute Selector*/
+[attribute] {
+  padding: 10px;
+}
+
+/*Descendant Selector*/
+h1 p {
+  background-color: whitesmoke;
+}
+
+/*Pseudoclass Selector*/
+link:hover {
+  color: whitesmoke;
+}

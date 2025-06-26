@@ -1,0 +1,38 @@
+/** External Fonts in CSS */
+
+/* To use external fonts in CSS, you can do so using the `@font-face` property. This you
+Allows you to include custom fonts on your website that are not available by default
+in most systems. Below is an example of how to use external sources
+in CSS */
+
+/* 1. First, you must upload the custom font to your web server or use a font hosted on a
+Font hosting service, such as Google Fonts or Adobe Fonts. Make sure you have access to the
+font files (usually .woff or .woff2 files). */
+
+/* 2. Next, define the custom font in your CSS stylesheet using `@font-face`. TO
+Below is an example: */
+
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("path-to-my-source.woff2") format("woff2");
+  /* Optional: You can include other supported font formats here */
+}
+
+/* 3. After defining the font, you can apply it to elements of your web page by specifying the name
+ of the custom font in the `font-family` property. For example. */
+
+body {
+  font-family: "MyCustomFont", sans-serif;
+}
+
+/* In this example, the custom font is defined with the name 'MyCustomFont' and applied
+ to all `body` elements of the page. If the custom font does not load correctly or
+ is available, a generic fallback font specified in `sans-serif` will be used. */
+
+/* 4. Make sure you provide the correct path to the source file in the `src` property. You can too
+ include multiple font formats (such as woff and woff2) to ensure greater compatibility between
+ browsers. */
+
+/* It is important to remember that, in many cases, it is advisable to use external sources hosted on
+ services such as Google Fonts, Adobe Fonts, or Font Awesome, as they simplify font management and
+ They guarantee high availability and compatibility on different browsers and devices. */

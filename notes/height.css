@@ -1,0 +1,46 @@
+/** Height in CSS */
+
+/* The `height` property in CSS is used to define the height of an Html element, that is, how much
+vertical space an element occupies on the web page. Like the `width` property that controls the
+width, the `height` property allows you to adjust the height of various HTML elements, such as divs, images,
+paragraphs, headings and more. Here are some examples of how it can be used: */
+
+/* 1. **Fixed value in pixels:** */
+
+div {
+  height: 200px; /* The div will have a height of 200 pixels */
+}
+
+img {
+  height: 150px; /* The image will have a height of 150 pixels */
+}
+
+/* 2. **Percentage of container height:** */
+
+div {
+  height: 50%; /* The div will occupy 50% of the height of its container */
+}
+
+/* 3. **Auto value:** */
+
+/* You can use `height: auto;` to allow the element to automatically fit its contents. By
+ For example, a paragraph will adjust to the height of its text content. */
+
+p {
+  height: self; /* The paragraph will adjust to the height of its content */
+}
+
+/* 4. **Maximum and minimum value:** */
+
+/* You can define maximum and minimum values for the height of an element using `max-height` and `
+ min-height`. This can be useful to control the size of an element within certain size limits.
+ height. */
+
+div {
+  max-height: 300px; /* The maximum height of the div is 300 pixels */
+  min-height: 100px; /* The minimum height of the div is 100 pixels */
+}
+
+/* The `height` property allows you to control the height of elements on your web page and is essential for
+ web design. You can adjust the height of the elements according to your design needs, whether
+ using fixed values, percentages or setting minimum and maximum limits. */
